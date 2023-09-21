@@ -1,0 +1,34 @@
+/* Estilização para a página inteira */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilização para o elemento raiz do React (normalmente um div com id "root") */
+#root {
+  height: 100%;
+}
+
+/* Estilização para .home-container */
+.home-container {
+  width: 100%;
+  height: 100vh; /* Ajusta para ocupar 100% da altura da tela */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo verticalmente e horizontalmente */
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+/* Estilização para .new-home (se necessário) */
+.new-home {
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  margin-bottom: 5%;
+}
+
+/* Outros estilos específicos da página (adicione conforme necessário) */
+

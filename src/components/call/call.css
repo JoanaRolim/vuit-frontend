@@ -1,0 +1,38 @@
+.call {
+  background-color: #e8f2ff;
+  padding: 15px;
+  padding-top: 3vw;
+  color: #1e2b4b;
+  justify-content: left;
+  align-items: left;
+  text-align: center;
+}
+
+.title_call {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #1e2b4b;
+  line-height: 1.3;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.text {
+  color: #1e2b4b;
+  text-align: center;
+}
+
+.more {
+  padding: 0.5vw 2vw 0.5vw 2vw;
+  margin: 1vw;
+  margin-left: 2vw;
+  border-radius: 1vw;
+  background-color: #1e2b4b;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.more:hover {
+  background-color: #405077;
+}

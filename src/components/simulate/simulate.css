@@ -1,0 +1,451 @@
+.subscribe {
+  margin: 0 auto;
+  margin-top: 2em;
+  max-width: 562px;
+}
+
+.subscribe #header {
+  margin-right: 4.5em;
+}
+
+.subscribe #header h1 {
+  font-size: 24px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: #1e2b4b;
+}
+
+.subscribe hr {
+  border: 0;
+  border-top: 2px solid #7ab55c;
+  margin: 0;
+  width: 1em;
+}
+
+.subscribe input[type="text"] {
+  margin-right: 10px;
+  width: 45%;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  font-family: Helvetica, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  padding: 0.67857143em 1em;
+  background: #ffffff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 0.28571429rem;
+  transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.subscribe input::-webkit-input-placeholder {
+  color: rgba(191, 191, 191, 0.87);
+}
+.subscribe input::-moz-placeholder {
+  color: rgba(191, 191, 191, 0.87);
+}
+.subscribe input:-ms-input-placeholder {
+  color: rgba(191, 191, 191, 0.87);
+}
+
+.subscribe select {
+  background-color: white;
+  color: rgba(191, 191, 191, 0.87);
+  border: thin solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0.5em 2.75em 0.5em 1em;
+  cursor: pointer;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.subscribe select:focus {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.subscribe select.minimal {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 22px) calc(1em + 3px),
+    calc(100% - 16px) calc(1em + 3px), calc(100% - 2.5em) 0.5em;
+  background-size: 13px 6px, 8px 7px, 1.5px 1.5em;
+  background-repeat: no-repeat;
+}
+
+.subscribe form {
+  margin-top: 3em;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.subscribe #formDiv {
+  display: flex;
+  width: 100%;
+}
+
+.subscribe .error {
+  display: block;
+  font-size: 14px;
+  color: #c23628;
+  font-weight: bold;
+}
+
+.subscribe .buttonForm {
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  padding: 1pc;
+  border: 0;
+  border-radius: 0.317rem;
+  background-color: #1e2b4b;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.subscribe .buttonForm:hover {
+  opacity: 0.85;
+}
+
+.subscribe .buttonForm:active {
+  box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
+}
+
+.subscribe .buttonForm:focus {
+  outline: thin dotted #fff;
+  outline: none;
+  outline-offset: -2px;
+}
+
+/* responsive styling added */
+
+@media only screen and (max-width: 320px) {
+  .subscribe {
+    width: 80%;
+  }
+
+  .subscribe #header {
+    margin-right: 0.5em;
+  }
+
+  .subscribe #header h1,
+  .thankyou h3,
+  .thankyou p {
+    font-size: 14px;
+  }
+
+  .subscribe .error {
+    font-size: 12px;
+  }
+
+  .subscribe form,
+  .buttonForm,
+  .subscribe input[type="text"],
+  .subscribe select {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .subscribe {
+    width: 80%;
+  }
+
+  .subscribe #header {
+    margin-right: 1.5em;
+  }
+
+  .subscribe #header h1,
+  .thankyou h3,
+  .thankyou p {
+    font-size: 14px;
+  }
+
+  .subscribe .error {
+    font-size: 12px;
+  }
+
+  .subscribe form,
+  .button,
+  .subscribe input[type="text"],
+  .subscribe select {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .subscribe {
+    width: 80%;
+  }
+
+  #header {
+    margin-right: 1.5em;
+  }
+
+  #header h1,
+  .thankyou h3,
+  .thankyou p {
+    font-size: 16px;
+  }
+
+  .subscribe form,
+  .buttonForm,
+  .subscribe input[type="text"],
+  .subscribe select {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  select.minimal {
+    background-position: calc(100% - 22px) calc(1em + 1px),
+      calc(100% - 17px) calc(1em + 1px), calc(100% - 2.3em) 0.5em;
+  }
+}
+
+.feature-box {
+  margin-bottom: 32px;
+}
+
+.service-cards {
+  display: flex;
+   margin: 0px auto; 
+  justify-content: center;
+  width: fit-content;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* padding: 90px 100px; */
+  background-color: #fff;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin: 12px 8px;
+  transition: 0.1s all ease-in;
+}
+
+.service-card:hover,
+.service-card.active {
+  border: 1px solid #b8a2ff;
+}
+
+.service-card > * {
+  margin: 0px auto;
+}
+
+.service-card__icon {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 12px auto;
+  margin-bottom: 24px;
+  border-radius: 50%;
+  background-color: #e88cea;
+  transition: 0.1s all ease-in;
+}
+
+.service-card__icon ion-icon {
+  color: #fff;
+  margin: auto;
+  font-size: 3rem;
+}
+
+.service-card:hover .service-card__icon,
+.service-card.active .service-card__icon {
+  background-color: #835ef8;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 200px);
+  padding: 100px 24px;
+}
+
+section > .container {
+  display: flex;
+  height: 100%;
+  margin: 0px auto;
+  max-width: 1440px;
+}
+
+section > .container > * {
+  margin: auto 12px;
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    height: auto;
+  }
+  section > .container {
+    display: block;
+  }
+  section > .container > * {
+    margin: 12px auto;
+    width: 100%;
+  }
+}
+
+.section-text {
+  min-width: 300px;
+}
+
+.section-text__title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: #1e2b4b;
+  max-width: 400px;
+}
+
+.section-text__title-centered {
+  max-width: 600px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: #1e2b4b;
+}
+
+.section-text__title-centered_movie {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  color: #1e2b4b;
+}
+
+.section-text__title-big {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1e2b4b;
+  line-height: 1.3;
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+.section-text__title-small {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: #1e2b4b;
+}
+
+.section-text__subtitle {
+  color: #1e2b4b;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.section-text__body {
+  color: #606a7c;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.section-image {
+  height: calc(100vh - 130px);
+}
+
+.section-image__small {
+  height: calc(100vh - 130px);
+  max-width: 60vw;
+}
+
+.section-image img,
+.section-image__small img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 700px) {
+  .section-image,
+  .section-image__small {
+    display: none;
+  }
+}
+
+.feature-box {
+  margin-bottom: 32px;
+}
+
+.textBetweenContainer {
+  display: flex;
+  max-width: 100%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.textBetweenContainer > h5 {
+  font-size: 35px;
+  color: #343352;
+  font-weight: bold;
+}
+
+.textBetweenContainer > p {
+  font-size: 20px;
+  color: #343352;
+  opacity: 0.7;
+}
+
+.textBetweenContainer > a {
+  color: #cf1515;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.movieYoutubeCred {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.custom-youtube-embed-cred {
+  width: 100%;
+  height: 100%;
+}

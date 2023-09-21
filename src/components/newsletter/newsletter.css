@@ -1,0 +1,134 @@
+.outer-container {
+  background-color: #e8f2ff;
+}
+
+.footer-container {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+  .letter-title {
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .letter-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: center;
+    input {
+      padding: 10px 15px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      border: 1px solid var(--light);
+      width: 450px;
+      font-size: 1rem;
+
+      &:focus {
+        border: 1px solid var(--primary);
+      }
+    }
+  }
+
+  .social-block {
+    font-size: 1.3rem;
+
+    i {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      background-color: #ddd;
+      margin: 10px 5px;
+      vertical-align: center;
+      line-height: 35px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--primary);
+        color: var(--white);
+      }
+    }
+  }
+}
+
+.footer-end {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid var(--dark);
+  padding: 10px;
+  color: #444;
+  font-size: 15px;
+  i {
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer-container {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    margin: 0 25px;
+  }
+  .news-letter {
+    .form-group {
+      input {
+        width: 180px !important;
+        padding: 10px;
+      }
+      button {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.NewsletterInput {
+  width: 100%;
+  max-width: 800px;
+  height: 35px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.NewsletterButton {
+    background-color: #1e2b4b;
+    color: #fff; 
+    font-size: 10px; 
+    border: none;
+    transition: background-color 0.3s ease; 
+    padding: 6px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 30px;
+  }
+
+.NewsletterButton:hover {
+    background-color: #1e2b4b;
+  }
