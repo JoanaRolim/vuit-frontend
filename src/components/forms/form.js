@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, TextField, Grid, Typography } from "@mui/material";
 import { useForm } from "react-hook-form";
-import './form.css'
+import "./form.css";
 
 export default function Form() {
   const { register, handleSubmit } = useForm();
@@ -12,7 +12,7 @@ export default function Form() {
         <Typography
           variant="h6"
           gutterBottom
-          sx={{ textAlign: "start", paddingLeft: "10px", marginBottom: "25px",}}
+          sx={{ textAlign: "start", paddingLeft: "10px", marginBottom: "25px" }}
         >
           Entre em contato
         </Typography>
@@ -28,7 +28,7 @@ export default function Form() {
             <TextField
               className="textField"
               id="fullName"
-              label="Full Name"
+              label="Nome Completo"
               variant="outlined"
               fullWidth
               {...register("fullName")}
@@ -72,7 +72,7 @@ export default function Form() {
             <TextField
               className="textField"
               id="phoneNumber"
-              label="Phone Number"
+              label="Telefone"
               variant="outlined"
               // type='number'
               fullWidth
@@ -94,7 +94,7 @@ export default function Form() {
             <TextField
               className="textField"
               id="subject textField"
-              label="Subject"
+              label="Assunto"
               variant="outlined"
               fullWidth
               {...register("subject")}
@@ -118,14 +118,14 @@ export default function Form() {
             multiline
             rows={6}
             id="message"
-            label="Message"
+            label="Mensagem"
             variant="outlined"
             {...register("message")}
           />
         </Grid>
 
         <Button id="msg-btn" variant="outlined" type="submit">
-          Send Message
+          Enviar
         </Button>
       </form>
     </>

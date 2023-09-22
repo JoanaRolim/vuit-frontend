@@ -20,7 +20,7 @@ export default function CarrouselPage() {
   }, []);
 
   return (
-    <div>
+    <div id="carrousel">
       <div className="section-text">
         <div className="section-text__title-centered">{data.titulo1}</div>
         <div className="section-text__body__service">{data.t7}</div>

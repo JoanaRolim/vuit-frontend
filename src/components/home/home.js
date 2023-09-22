@@ -55,10 +55,7 @@ const Homepage = () => {
         <div className="section-text__title-centered_movie">
           {aboutData.header1}
         </div>
-        <YoutubeEmbed
-          className="custom-youtube-embed"
-          embedId="44gxvIpnsM8?si=Es6dB8RlqHERrcZ6"
-        />
+        <YoutubeEmbed embedId="44gxvIpnsM8?si=Es6dB8RlqHERrcZ6" />
       </div>
 
       <Cred />

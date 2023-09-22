@@ -77,6 +77,14 @@ section > .container > * {
   color: #1e2b4b;
 }
 
+.section-text__title-centered_movie {
+  color: #1e2b4b;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
 .section-text__title-big {
   font-size: 4rem;
   font-weight: 700;
@@ -344,7 +352,7 @@ section#pricing {
 .movieYoutube {
   max-width: 100%;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 250px;
   background-color: #e8f2ff;
   margin-bottom: 50px;
   padding: 30px;

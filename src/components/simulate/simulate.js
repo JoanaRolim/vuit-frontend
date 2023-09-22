@@ -12,13 +12,12 @@ const Simulates = () => {
     api
       .get("/cred")
       .then((response) => {
-        setData(response.data.data); 
+        setData(response.data.data);
       })
       .catch((error) => {
         console.error("Erro ao buscar dados da rota /about:", error);
       });
   }, []);
-
 
   const [state, setState] = useState({
     nomeInput: "",
@@ -91,9 +90,7 @@ const Simulates = () => {
     <>
       <div className="subscribe">
         <div id="header">
-          <h1>
-          Todo cuidado é Vuit
-          </h1>
+          <h1>Todo cuidado é Vuit</h1>
           <hr />
         </div>
 
@@ -116,9 +113,7 @@ const Simulates = () => {
 
       <section id="services">
         <div className="section-text">
-          <div className="section-text__title-centered">
-            {data.titulo1}
-          </div>
+          <div className="section-text__title-centered">{data.titulo1}</div>
 
           <div className="service-cards">
             <div className="service-card">
@@ -127,9 +122,7 @@ const Simulates = () => {
               </div>
               <div className="service-card__text-container">
                 <div className="section-text__title-small">{data.cred1}</div>
-                <div className="section-text__body">
-                {data.texto1}
-                </div>
+                <div className="section-text__body">{data.texto1}</div>
               </div>
             </div>
 
@@ -138,12 +131,8 @@ const Simulates = () => {
                 <ion-icon name="wallet-outline" />
               </div>
               <div className="service-card__text-container">
-                <div className="section-text__title-small">
-                {data.cred4}
-                </div>
-                <div className="section-text__body">
-                {data.texto2}
-                </div>
+                <div className="section-text__title-small">{data.cred4}</div>
+                <div className="section-text__body">{data.texto2}</div>
               </div>
             </div>
 
@@ -153,9 +142,7 @@ const Simulates = () => {
               </div>
               <div className="service-card__text-container">
                 <div className="section-text__title-small">{data.cred5}</div>
-                <div className="section-text__body">
-                {data.texto3}
-                </div>
+                <div className="section-text__body">{data.texto3}</div>
               </div>
             </div>
           </div>
@@ -163,8 +150,8 @@ const Simulates = () => {
       </section>
 
       <div className="movieYoutubeCred">
-        <div className="section-text__title-centered_movie"> {data.subtitulo}</div>
-        <CredVideo className="custom-youtube-embed-cred" embedId="kdPSpUR9BLY?si=Etd2Q1L4W5Y6Reqj" />
+        <div className="section--centered_movie"> {data.subtitulo}</div>
+        <CredVideo embedId="kdPSpUR9BLY?si=Etd2Q1L4W5Y6Reqj" />
       </div>
 
       <div>

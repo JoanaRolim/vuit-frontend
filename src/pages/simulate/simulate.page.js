@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import Simulates from "../../components/simulate/simulate";
-import "./simulate.page.css"
+import "./simulate.page.css";
 
 const Simulate = () => {
   return (
@@ -12,9 +12,7 @@ const Simulate = () => {
       </div>
 
       <div>
-        <div className="new-home">
-            <Simulates />
-        </div>
+        <Simulates />
       </div>
 
       <div>

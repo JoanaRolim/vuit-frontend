@@ -12,9 +12,7 @@ const Blogs = () => {
       </div>
 
       <div>
-        <div className="new-home">
-          <Blog />
-        </div>
+        <Blog />
       </div>
 
       <div>

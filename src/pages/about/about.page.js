@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import AboutUs from "../../components/about/about";
-import "./about.page.css"
+import "./about.page.css";
 
 const About = () => {
   return (
@@ -12,9 +12,7 @@ const About = () => {
       </div>
 
       <div>
-        <div className="new-home">
-            <AboutUs />
-        </div>
+        <AboutUs />
       </div>
 
       <div>

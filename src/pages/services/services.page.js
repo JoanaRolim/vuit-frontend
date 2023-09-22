@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import Service from "../../components/service/service";
-import "./services.page.css"
+import "./services.page.css";
 
 const Services = () => {
   return (
@@ -12,9 +12,7 @@ const Services = () => {
       </div>
 
       <div>
-        <div className="new-home">
-            <Service />
-        </div>
+        <Service />
       </div>
 
       <div>

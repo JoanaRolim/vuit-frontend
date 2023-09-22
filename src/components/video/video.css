@@ -1,0 +1,15 @@
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video-responsive {
+    max-width: 100%;
+  }
+}

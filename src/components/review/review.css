@@ -8,9 +8,9 @@ main {
   max-width: 600px;
   text-align: center;
   margin: 0px auto;
+  padding-top: 30px;
   font-size: 50px;
   font-weight: 700;
-  line-height: 1.2;
   margin-bottom: 40px;
   color: #1e2b4b;
 }
@@ -23,7 +23,7 @@ main {
 }
 
 .review {
-  padding: 1.5rem 2rem;
+  margin-top: 100px;
   text-align: center;
   background-color: #f2f2f2;
 }
@@ -115,16 +115,18 @@ main {
 
 .random-btn {
   margin-top: 0.5rem;
-  background-color:  #1e2b4b;;
+  background-color: #1e2b4b;
   color: white;
   padding: 12px;
   text-transform: capitalize;
   border: 2px solid #e8f2ff;
   border-radius: 20px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 .random-btn:hover {
-  background-color:#e8f2ff;;
+  background-color: #e8f2ff;
   color: black;
+  margin-bottom: 50px;
 }

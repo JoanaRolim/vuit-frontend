@@ -21,7 +21,7 @@ function Header() {
   }, []);
 
   return (
-    <section id="screenshots" style={{ overflow: "hidden" }}>
+    <section id="screenshots">
       <div className="container">
         <div className="section-text">
           <div className="section-text__title">{data.titulo3}</div>

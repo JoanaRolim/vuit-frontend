@@ -9,6 +9,7 @@
   opacity: 1;
   background-color: #1e2b4b;
 }
+
 .contactUsBanner .bannerHeadding {
   font-size: 18px;
   font-weight: 800;
@@ -49,7 +50,7 @@
   background: white;
   width: 100%;
   position: relative;
-  min-height:100%;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -224,6 +225,7 @@
   background: transparent;
   transition: 0.15s all ease-in-out;
   cursor: pointer;
+
   @media screen and (min-width: 960px) {
     min-width: 100px;
   }
@@ -235,5 +237,5 @@
 }
 
 .NewsletterContainer {
-  margin-top: 20px; 
+  margin-top: 20px;
 }

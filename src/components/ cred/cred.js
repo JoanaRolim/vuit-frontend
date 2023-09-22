@@ -3,8 +3,8 @@ import api from "../../environments/environments";
 import img1 from "../../assets/images/pages/img1.jpg";
 import img2 from "../../assets/images/pages/img8.jpg";
 import img3 from "../../assets/images/pages/img4.jpg";
-import "../home/home.css";
 import LearnMore from "../learn/learn_more";
+import "./cred.css";
 
 function Cred() {
   const [data, setData] = useState({});
@@ -21,7 +21,7 @@ function Cred() {
   }, []);
 
   return (
-    <section id="screenshots" style={{ overflow: "hidden" }}>
+    <section id="screenshots">
       <div className="container">
         <div className="section-text">
           <div className="section-text__title">{data.titulo1}</div>
@@ -39,9 +39,6 @@ function Cred() {
             </div>
             <div className="section-carousel__image">
               <img src={img3} alt="app screenshot" />
-            </div>
-            <div className="section-carousel__image">
-              <img src={img1} alt="app screenshot" />
             </div>
           </div>
         </div>

@@ -42,28 +42,28 @@ export default function Newsletter() {
           </div>
 
           <div className="social-block">
-            <ul className="footer-social-media">
-              <li className="footer-social-media-item">
+            <ul className="social-media">
+              <li className="social-media-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <FaFacebookSquare />
                 </a>
               </li>
-              <li className="footer-social-media-item">
+              <li className="social-media-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <FaTwitter />
                 </a>
               </li>
-              <li className="footer-social-media-item">
+              <li className="social-media-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
               </li>
-              <li className="footer-social-media-item">
+              <li className="social-media-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <FaYoutube />
                 </a>
               </li>
-              <li className="footer-social-media-item">
+              <li className="social-media-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <GrMail />
                 </a>

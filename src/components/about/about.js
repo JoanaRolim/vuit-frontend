@@ -48,7 +48,7 @@ export const AboutUs = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6">
-              <img src={aboutImg} className="img-responsive" alt="about" />
+              <img src={aboutImg} alt="about" />
             </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
@@ -86,32 +86,32 @@ export const AboutUs = () => {
       <div style={{ marginTop: "200px" }}>
         <Send />
       </div>
-      <div>
-        <div>
-          <p className="footer-text">Nos siga nas redes sociais:</p>
+      <div className="content d-flex justify-content-between align-items-center">
+        <div className="text-media">
+          <p>Nos siga nas redes sociais:</p>
         </div>
-        <ul className="footer-social-media">
-          <li className="footer-social-media-item">
+        <ul className="social-media-item list-inline">
+          <li className="social-media-item list-inline-item">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaFacebookSquare />
             </a>
           </li>
-          <li className="footer-social-media-item">
+          <li className="social-media-item list-inline-item">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaTwitter />
             </a>
           </li>
-          <li className="footer-social-media-item">
+          <li className="social-media-item list-inline-item">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
           </li>
-          <li className="footer-social-media-item">
+          <li className="social-media-item list-inline-item">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaYoutube />
             </a>
           </li>
-          <li className="footer-social-media-item">
+          <li className="social-media-item list-inline-item">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <GrMail />
             </a>
